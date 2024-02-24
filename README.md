@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/449a301c-0f76-4575-8a26-0fb3692ed9b2/deploy-status)](https://app.netlify.com/sites/nuxt-messenger/deploys)
+
 # Nuxt Chat
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

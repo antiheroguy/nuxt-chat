@@ -27,13 +27,8 @@
 const chatStore = useChatStore()
 const { sendMessage } = useFirebase()
 
-const {
-  public: { apiUrl },
-} = useRuntimeConfig()
-
 const sendNotification = async (id) => {
-  await $fetch('/send-notification', {
-    baseURL: apiUrl,
+  await $fetch('/api/send-notification', {
     query: { id },
   })
 }

@@ -20,7 +20,6 @@ export default defineNuxtConfig({
   css: ['@/assets/style.scss'],
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_URL,
       apiKey: process.env.API_KEY,
       authDomain: process.env.AUTH_DOMAIN,
       projectId: process.env.PROJECT_ID,
